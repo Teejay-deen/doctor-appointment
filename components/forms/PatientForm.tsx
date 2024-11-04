@@ -13,7 +13,6 @@ import { useRouter } from "next/navigation";
 
 export enum FormFieldType {
   INPUT = "input",
-
   TEXTAREA = "textarea",
   PHONE_INPUT = "phoneInput",
   CHECKBOX = "checkbox",
@@ -24,7 +23,6 @@ export enum FormFieldType {
 
 const PatientForm = () => {
   const router = useRouter()
-  
   const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<z.infer<typeof UserFormValidation>>({
