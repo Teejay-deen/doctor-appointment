@@ -35,7 +35,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
   field,
   props,
 }) => {
-  const { fieldType, iconAlt, iconSrc, placeholder = "Enter text" } = props; // Default placeholder
+  const { fieldType, iconAlt, iconSrc, placeholder = "Enter text" } = props; 
 
   switch (fieldType) {
     case FormFieldType.INPUT:
@@ -71,7 +71,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
               placeholder={placeholder}
               international
               withCountryCallingCode
-              value={field.value as E164Number | undefined}
+              value={field.value }
               onChange={field.onChange}
               className="py-3 px-3 border-0"
             />
