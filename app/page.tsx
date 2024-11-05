@@ -11,7 +11,7 @@ export default function Home() {
           <Image 
             src="/assets/icons/logo-full.svg"
             width={1000}
-            height={100}
+            height={1000}
             alt="patient"
             className="mb-12 h-10 w-fit"
           />
