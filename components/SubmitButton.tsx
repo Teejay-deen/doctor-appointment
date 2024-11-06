@@ -19,6 +19,7 @@ const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
       aria-label={isLoading ? "Loading..." : "Submit"}
     >
       {isLoading ? (
+        
         <div className="flex items-center gap-4">
           <Image
             src="/assets/icons/loader.svg"

@@ -63,7 +63,7 @@ const PatientForm = () => {
         <section className="mb-5 space-y-4">
           <h1 className="header">Hi There, ...</h1>
           <p className="font-medium text-[18px] text-[#ABB8C4]">
-            Get Started with Appointments.
+            Get Started with Appointments
           </p>
         </section>
 
