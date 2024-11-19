@@ -86,7 +86,6 @@ const PatientForm = () => {
           placeholder="Jimoh.tajudeen1017@gmail.com"
           iconSrc="/assets/icons/email.svg"
           iconAlt="email"
-          
         />
 
         
