@@ -13,7 +13,6 @@ import { useRouter } from "next/navigation";
 import { createUser } from "@/lib/actions/patient.actions";
 
 export enum FormFieldType {
-  
   INPUT = "input",
   TEXTAREA = "textarea",
   PHONE_INPUT = "phoneInput",
@@ -86,10 +85,8 @@ const PatientForm = () => {
           placeholder="Jimoh.tajudeen1017@gmail.com"
           iconSrc="/assets/icons/email.svg"
           iconAlt="email"
-          
         />
 
-        
         <CustomFormField
           fieldType={FormFieldType.PHONE_INPUT}
           control={form.control}
