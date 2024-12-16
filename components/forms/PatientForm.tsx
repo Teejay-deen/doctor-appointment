@@ -68,7 +68,6 @@ const PatientForm = () => {
         </section>
 
         <CustomFormField
-        
           fieldType={FormFieldType.INPUT}
           control={form.control}
           name="name"
