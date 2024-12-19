@@ -53,7 +53,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
 
           <FormControl>
             <Input
-              className="shad-input border-0"
+              className="shad-input border-0 "
               type="text"
               placeholder={placeholder}
               {...field}
