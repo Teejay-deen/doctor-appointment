@@ -71,7 +71,6 @@ const PatientForm = () => {
           fieldType={FormFieldType.INPUT}
           control={form.control}
           name="name"
-          
           label="Full Name"
           placeholder="Jimoh Tajudeen"
           iconSrc="/assets/icons/user.svg"
