@@ -15,7 +15,7 @@ const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
       type="submit"
       disabled={isLoading}
       className={className ?? "shad-primary-btn w-full"}
-      aria-label={isLoading ? "Loading..." : "Submit"}
+      aria-label={isLoading ? "Loading...." : "Submit"}
     >
       {isLoading ? (
         <div className="flex items-center gap-4">
@@ -24,6 +24,7 @@ const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
             alt="Loading icon"
             
             width={24}
+
             height={24}
             className="animate-spin"
           />
