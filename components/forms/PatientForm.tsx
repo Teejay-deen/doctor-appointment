@@ -74,7 +74,7 @@ const PatientForm = () => {
           label="Full Name"
           placeholder="Jimoh Tajudeen"
           iconSrc="/assets/icons/user.svg"
-          iconAlt="user"
+          iconAlt="user "
         />
 
         <CustomFormField
