@@ -8,7 +8,7 @@ export const UserFormValidation = z.object({
 
   email: z
     .string()
-    .email("Invalid Email Address"),
+    .email("Invalid Email Address "),
 
   phone: z
     .string()
