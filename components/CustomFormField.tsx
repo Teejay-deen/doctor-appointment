@@ -40,7 +40,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
   switch (fieldType) {
     case FormFieldType.INPUT:
       return (
-        <div className="flex rounded-md  border border-dark-500 bg-dark-400">
+        <div className="flex rounded-md border border-dark-500 bg-dark-400">
           {iconSrc && (
             <Image
               className="ml-2"
