@@ -31,7 +31,6 @@ const PatientForm = () => {
       name: "",
       email: "",
       phone: "",
-      
     },
   });
 
