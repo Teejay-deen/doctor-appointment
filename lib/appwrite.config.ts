@@ -11,6 +11,7 @@ export const {
   NEXT_PUBLIC_ENDPOINT: ENDPOINT,
 } = process.env;
 
+
 const client = new sdk.Client();
 
 client
