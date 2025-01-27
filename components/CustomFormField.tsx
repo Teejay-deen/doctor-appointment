@@ -43,7 +43,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
         <div className="flex rounded-md border border-dark-500 bg-dark-400">
           {iconSrc && (
             <Image
-              className="ml-2"
+              className="ml-2 "
               src={iconSrc}
               alt={iconAlt || "icon"}
               height={24}
