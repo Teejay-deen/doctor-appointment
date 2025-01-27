@@ -17,7 +17,6 @@ const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
       disabled={isLoading}
       className={className ?? "shad-primary-btn w-full"}
       aria-label={isLoading ? "Loading...." : "Submit"}
-      
     >
       {isLoading ? (
         <div className="flex items-center gap-4">
