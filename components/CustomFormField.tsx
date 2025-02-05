@@ -64,6 +64,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
 
     case FormFieldType.PHONE_INPUT:
       return (
+
         <div className="flex rounded-md border border-dark-500 bg-dark-400">
           <FormControl>
             <PhoneInput
