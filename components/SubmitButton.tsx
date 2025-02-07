@@ -27,6 +27,7 @@ const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
             width={24} 
             height={24}
             className="animate-spin"
+            
           />
           <FaSpinner />
         </div>
