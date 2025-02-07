@@ -57,6 +57,7 @@ const RenderField: React.FC<{ field: any; props: CustomProps }> = ({
               type="text"
               placeholder={placeholder}
               {...field}
+              
             />
           </FormControl>
         </div>
