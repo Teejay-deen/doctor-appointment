@@ -12,7 +12,6 @@ export const {
 } = process.env;
 
 
-
 const client = new sdk.Client();
 
 client
